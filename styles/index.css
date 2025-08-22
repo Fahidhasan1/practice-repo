@@ -37,3 +37,17 @@ padding: 5px 20px;
 #something{
     text-align: center;
 }
+.messi{
+    display: flex;
+     text-align: justify;
+}
+.cr7{
+    display: flex;
+    text-align: justify;
+}
+.mc{
+   background-color: aqua;
+   border-radius: 20px;
+   margin: 50px 20px;
+  
+}
