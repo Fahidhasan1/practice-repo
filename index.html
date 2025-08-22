@@ -5,31 +5,86 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Travel Blog</title>
+    <link rel="shortcut icon" href="https://pluspng.com/img-png/favicon-png-favicon-1024.png" type="image/x-icon">
 </head>
 <body>
     <h3><i>My travel Blog</i></h3>
     <div>
         <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse sint, perferendis autem perspiciatis praesentium quod est at sequi, tenetur fugiat doloremque aspernatur officiis explicabo molestias provident iste laudantium eaque eveniet.
-            <button>read more</button>
+            <button><a href="read more.html">read more</a></button>
+            <br>
+            <!-- <p>read more using submit tag</p> -->
+            <p><a href="read more.html"><input type="submit" value="Read more"></a></p>
         </p>
-        <button>Read more</button>
+        
     </div>
     <span><b>What i bought</b></span>
     <br>
-   <ol type="A">
-    <span><b>My favourite fruits</b></span>
-    <li>Mango </li>
-    <li>Apple</li>
-    <li>Banana</li>
-   </ol>
-  
+   <div class="ol"><ol type="A">
+    <span><b id="Fruits">My favourite fruits</b></span>
+    <br>
+    <br>
+    <li><strong>Mango</strong> </li>
+    <img src="https://purepng.com/public/uploads/large/purepng.com-mangomangofruithalvedfrontalfullsweetfresh-481521564634qp959.png" alt="a mango " height="300px" width="500px">
+    <li><h3>Apple</h3></li>
+    <img src="https://tse3.mm.bing.net/th/id/OIP.A1JjNu8jIRxaTJHbD_EtFwHaIJ?pid=Api&P=0&h=220" alt="" height="300px" width="500px">
+    <li><b>Banana</b></li>
+    <img src="https://jooinn.com/images/bunch-of-bananas-isolated-on-white-2.jpg" alt="" height="300px" width="500px">
+   </ol></div>
+  <div class="ul">
      <ul type="square">
-        <span><b>My favourite Sports</b></span>
+        <span id="Sports"><b>My favourite Sports</b></span>
+        <br>
+        <br>
         <li>Football</li>
+        <img src="images/football.jpeg" alt="It,s a football" height="300px" width="500px">
         <li>Cricket</li>
+        <img src="images/cricket.jpeg" alt="Crickets pic" height="20%" width="35%">
         <li>badminton</li>
-     </ul>
+        <img src="images/badminton.jpg" alt="it's a badminton image" height="300px"
+        width="500px">
+     </ul>  
+ </div>
+ <div class="song">
+    <h3>my favourite song is</h3>
+    <a href="https://www.youtube.com/watch?v=_iktURk0X-A&list=RDMKP6p7nXTVc&index=14">Phirbhi tumko cahungga</a>
+    <br>
+ </div>
+ <br>
+
+ <a href="list.html">favourite player list</a>
+ <br>
+  <div>
+        <p id="form"><h3>Fill the form</h3>
+            <form>
+                <input type="text" placeholder="your name">
+                <br>
+                <input type="email" placeholder="your email">
+                <br>
+                <select name="gender" id="">
+                    <option value="male">Male</option>
+                    <option value="Female">Female</option>
+                </select>
+                <br>
+                <input type="date" placeholder="Birth-date">
+                <br>
+                <input type="file" name="" id="" placeholder="Choose file">
+                <br>
+                <input type="password" name="" id="" placeholder=" your Password">
+                <br>
+                <p><input type="checkbox" name="" id="" >I agreed the terms and conditions</p>
+        
+                <input type="submit" value="Submit">
+
+                
+            </form>
+
+        </p>
+    </div>
 
 </body>
+<footer>
+    <small>developed by fahid</small>
+</footer>
 </html>
