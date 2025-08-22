@@ -1,0 +1,39 @@
+input[type="password"]{
+    color: chartreuse;
+}
+#form{
+    margin: 10px 600px;
+    border: 8px solid rgb(88, 205, 21);
+    border-radius: 50px 50px;
+    text-align: center;
+    padding: 40px 50px;
+}
+.no{
+    text-align: center;
+}
+.all{
+    display: flex;
+    margin-left:100px;
+}
+.ul{
+    padding:0px 30px;
+    margin-left: 100px;
+    text-align: center;
+    box-shadow: 10px 10px 20px blueviolet;
+}
+.ol{
+    padding-bottom: 20px;
+    padding-top: 10px;
+    box-shadow: 10px 10px 20px rgb(43, 5, 215);
+}
+
+.solve{
+padding: 5px 20px;
+}
+#Sports,#Fruits{
+    
+    padding-left: 150px;
+}
+#something{
+    text-align: center;
+}
